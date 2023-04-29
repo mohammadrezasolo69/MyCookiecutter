@@ -1,0 +1,20 @@
+{
+    "project_name": "Config",
+    "project_slug": "core",
+
+
+    "first_name":"mohamamdreza",
+    "last_name":"soltandoost",
+
+    "license": ["MIT", "BEER", "None"],
+
+    "postgres_user": "postgres",
+    "postgres_password": "root",
+    "postgres_database_name":"db",
+
+    "use_jwt": "y",
+    "use_redis": "y",
+    "use_nginx": "y",
+    "use_ckeditor":"y"
+
+}

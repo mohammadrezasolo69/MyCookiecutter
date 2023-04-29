@@ -1,0 +1,5 @@
+-r requirements_base.txt
+
+django-seed
+django-debug-toolbar
+

@@ -1,0 +1,18 @@
+# Main
+DEBUG = ''
+SECRET_KEY = ''
+
+# Postgres
+ENGINE = ''
+POSTGRES_DB = ''
+POSTGRES_USER = ''
+POSTGRES_PASSWORD = ''
+POSTGRES_HOST = ''
+
+# Cors
+CSRF_TRUSTED_ORIGINS = ''
+
+{% if cookiecutter.use_redis == 'y' %}
+# Redis
+REDIS_LOCATION = ''
+{%endif%}

@@ -1,0 +1,20 @@
+Django
+django-filter
+django-environ
+psycopg2-binary
+django-cors-headers
+djangorestframework
+djangorestframework-simplejwt
+drf-spectacular
+drf-spectacular-sidecar
+Pillow
+
+{%if cookiecutter.use_redis == 'y' %}
+redis
+{%endif%}
+
+{% if cookiecutter.use_ckeditor == "y" %}
+django-ckeditor
+{% endif %}
+
+
