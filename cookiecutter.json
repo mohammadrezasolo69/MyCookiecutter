@@ -2,11 +2,15 @@
     "project_name": "Config",
     "project_slug": "core",
 
-
-    "first_name":"mohamamdreza",
-    "last_name":"soltandoost",
-
-    "license": ["MIT", "BEER", "None"],
+    "author_name": "Mohammadreza Soltandoost",
+    "email": "mohammadrezasolo69@gmail.com",
+    "open_source_license": [
+        "MIT",
+        "BSD",
+        "GPLv3",
+        "Apache Software License 2.0",
+        "Not open source"
+    ],
 
     "postgres_user": "postgres",
     "postgres_password": "root",

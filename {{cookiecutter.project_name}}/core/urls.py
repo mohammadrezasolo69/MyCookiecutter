@@ -17,15 +17,11 @@ urlpatterns = [
     path('redoc/', SpectacularRedocView.as_view(url_name='schema'), name='redoc'),
     path('', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
 
-
     {% if cookiecutter.use_ckeditor == 'y' %}
     path('ckeditor/', include('ckeditor_uploader.urls'), name="CKEditor_URL"),
     {% endif %}
 
-
-    {% if cookiecutter.use_django_debug_toolbar == 'y' %}
     path('__debug__/', include('debug_toolbar.urls')),
-    {% endif %}
 ]
 
 
